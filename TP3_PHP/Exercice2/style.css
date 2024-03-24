@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suite {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+.nombre {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.nombre.paire {
+    color: #008000;
+}
+.nombre.impaire {
+    color: #ff0000;
+}
